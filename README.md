@@ -1,0 +1,1 @@
+esta es mi solucion al reto del juego del ahorcado plasmado en codigo python 
