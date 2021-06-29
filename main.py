@@ -14,9 +14,10 @@ def run():
     while palabra  != string_palabra_oculta and errores != 5:
 
         os.system("clear")
-        print(f'Juguemos ahorcado, adivina la palabra, {len(palabra)} letras')
-        print(intentos(errores))
-        print(string_palabra_oculta) 
+        print(f'Juguemos ahorcado, adivina la palabra')
+        print(f'{intentos(errores)}   \n \n \n  ')
+        print( "".join([i+'  ' for i in string_palabra_oculta])  )
+        print(f' \n \n \n') 
         letra = input('Presiona una tecla y despues enter    ').lower()
 
         iterador = 0
