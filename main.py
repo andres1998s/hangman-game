@@ -16,7 +16,7 @@ def run():
         os.system("clear")
         print(f'Juguemos ahorcado, adivina la palabra')
         print(f'{intentos(errores)}   \n \n \n  ')
-        print( "".join([i+'  ' for i in string_palabra_oculta])  )
+        print( "".join([i+'  ' for i in string_palabra_oculta]))
         print(f' \n \n \n') 
         letra = input('Presiona una tecla y despues enter    ').lower()
 

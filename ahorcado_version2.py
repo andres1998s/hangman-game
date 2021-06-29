@@ -27,8 +27,8 @@ def run():
 
     while len(palabra)  != contador:
         os.system("clear")
-        print(f'Juguemos ahorcado, tu palabra es de {len(palabra)}  letras \n   ')
-        print(string_palabra_oculta)
+        print(f'Juguemos ahorcado')
+        print( "".join([i+'  ' for i in string_palabra_oculta]))
 
         letra = input('Escribe una letra:    ').lower()
         if letra in letras_repetidas:
